@@ -9,5 +9,5 @@ See https://seminar.io/2018/09/03/building-serverless-telegram-bot/ for more det
 ## Deploy
 
 ```
-$ gcloud beta functions deploy bot --set-env-vars "TELEGRAM_TOKEN=000:yyy" --runtime python37 --trigger-http
+$ gcloud beta functions deploy webhook --set-env-vars "TELEGRAM_TOKEN=000:yyy" --runtime python37 --trigger-http
 ```
